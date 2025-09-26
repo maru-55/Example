@@ -1,5 +1,3 @@
-print("hello world")
-
 def greet():
     return print("こんにちは")
 
@@ -11,3 +9,16 @@ def get_greet():
 
 def add(a, b):
     return a + b
+
+
+# 以下、関数の呼び出しと出力での確認
+
+print("hello world")
+
+greet()
+
+print(print_name("maru"))
+
+print(get_greet())
+
+print(add(1, 2))
